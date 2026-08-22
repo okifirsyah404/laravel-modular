@@ -1,0 +1,8 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use Modules\{ModuleTemplate}\Http\Controllers\{ModuleTemplate}Controller;
+
+Route::middleware([])->group(function () {
+    Route::resource('{moduletemplate}', {ModuleTemplate}Controller::class)->names('{moduletemplate}');
+});

@@ -1,0 +1,28 @@
+{
+    "name": "okifirsyah/{moduletemplate}",
+    "description": "",
+    "authors": [
+        {
+            "name": "Oki Firdaus",
+            "email": "okifirsyah404@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\{ModuleTemplate}\\": "app/",
+            "Modules\\{ModuleTemplate}\\Database\\Factories\\": "database/factories/",
+            "Modules\\{ModuleTemplate}\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\{ModuleTemplate}\\Tests\\": "tests/"
+        }
+    }
+}
